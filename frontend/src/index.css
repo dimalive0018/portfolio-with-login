@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply box-border;
+    @apply m-0;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    @apply bg-lime-50;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
